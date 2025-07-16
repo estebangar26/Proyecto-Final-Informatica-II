@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>587</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_mensaje">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>280</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_convertir_a_nifti">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>40</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #34598a; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 20px;
+}
+QPushButton:hover {
+    background-color: #2a5578f;  
+}
+QPushButton:pressed {
+    background-color: #2a5578; 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Convertir DICOM A NIfIi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_cargar_nifti_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>130</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #34598a; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 20px;
+}
+QPushButton:hover {
+    background-color: #2a5578f;  
+}
+QPushButton:pressed {
+    background-color: #2a5578; 
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Cargar archivo NIfTI</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_ver_metadatos">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #34598a; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 20px;
+}
+QPushButton:hover {
+    background-color: #2a5578f;  
+}
+QPushButton:pressed {
+    background-color: #2a5578; 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Ver metadatos del estudio</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_mostrar_cortes">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #34598a; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 20px;
+}
+QPushButton:hover {
+    background-color: #2a5578f;  
+}
+QPushButton:pressed {
+    background-color: #2a5578; 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Mostrar cortes  (axial, coronal, sagital)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_cargar_dicom">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #34598a; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 20px;
+}
+QPushButton:hover {
+    background-color: #2a5578f;  
+}
+QPushButton:pressed {
+    background-color: #2a5578; 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Cargar carpeta DICOM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_volver">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>340</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #34598a; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 20px;
+}
+QPushButton:hover {
+    background-color: #2a5578f;  
+}
+QPushButton:pressed {
+    background-color: #2a5578; 
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Volver al menu anterior</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_guardar_datos">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>230</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #34598a; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 20px;
+}
+QPushButton:hover {
+    background-color: #2a5578f;  
+}
+QPushButton:pressed {
+    background-color: #2a5578; 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
